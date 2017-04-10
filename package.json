@@ -1,0 +1,52 @@
+{
+  "name": "ironhide",
+  "version": "0.0.0",
+  "description": "Ironhide is simple but powerful React component for Primus which allows you to share connections with all child components",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primus/ironhide"
+  },
+  "keywords": [
+    "ironhide",
+    "parser",
+    "transport"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/primus/ironhide/issues"
+  },
+  "homepage": "https://github.com/primus/ironhide",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-es2015": "6.22.x",
+    "babel-preset-react": "6.23.x",
+    "babelify": "7.3.x",
+    "prop-types": "^15.5.6",
+    "react": "^15.5.3"
+  },
+  "babel-ignore": false,
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "babel": {
+    "plugins": [
+      "transform-object-rest-spread"
+    ],
+    "presets": [
+      "babel-preset-es2015",
+      "babel-preset-react"
+    ]
+  },
+  "devDependencies": {
+    "assume": "^1.5.0",
+    "babel-register": "^6.24.1",
+    "mocha": "^3.2.0"
+  }
+}
