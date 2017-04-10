@@ -1,5 +1,7 @@
 # ironhide
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/primus/ironhide.svg)](https://greenkeeper.io/)
+
 Ironhide is a small React wrapper for Primus. It is one of the many ways on how
 you can use React with Primus. The benefit of using Ironhide is that it shares
 a single connection with all child components by leveraging the React Context
